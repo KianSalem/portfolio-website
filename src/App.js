@@ -3,12 +3,8 @@ import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
-import React, { useState } from 'react';
 
 function App() {
-  const [theme, setTheme] = useState('light');
-  return (
-    <div className={theme}>
   return (
     <Router>
       <Switch>
@@ -18,10 +14,6 @@ function App() {
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>
-    <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
-        Toggle Mode
-      </button>
-    </div>
   );
 }
 
