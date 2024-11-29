@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import Projects from './components/Projects';
-import About from './components/About';
-import Contact from './components/Contact';
+import LandingPage from '.src/components/LandingPage';
+import Projects from '.src/components/Projects';
+import About from '.src/components/About';
+import Contact from '.src/components/Contact';
 import React, { useState } from 'react';
 
 function App() {
