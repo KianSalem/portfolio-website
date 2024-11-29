@@ -9,19 +9,19 @@ function Projects() {
       id: 1,
       name: 'Customer Segmentation Analysis',
       shortDescription: 'Analyzing retail data to segment customers.',
-      image: '/images/project1.jpg',
+//      image: '/images/project1.jpg',
     },
     {
       id: 2,
       name: 'Financial Transactions Fraud Detection',
       shortDescription: 'Detecting fraud in financial transactions data.',
-      image: '/images/project2.jpg',
+//      image: '/images/project2.jpg',
     },
     {
       id: 3,
       name: 'E-commerce Sales Trends Forecasting',
       shortDescription: 'Forecasting revenue based on sales trends.',
-      image: '/images/project3.jpg',
+//      image: '/images/project3.jpg',
     },
   ];
 

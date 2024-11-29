@@ -12,7 +12,7 @@ function About() {
         Leveraging my background in data reporting journalism and experience at Scale AI, I bring
         a unique perspective to solving complex problems.
       </p>
-      <a href="/files/KianSalemResume.pdf" download className="resume-button">
+      <a href="/images/KianSalemResume.pdf" download className="resume-button">
         Download Resume
       </a>
     </div>
