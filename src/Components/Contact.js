@@ -1,13 +1,29 @@
+// src/components/Contact.js
 import React from 'react';
+import './Contact.css'; // For styling
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>
+    <div className="contact-page">
       <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:salemkian1@gmail.com">your-email@example.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/salemkian" target="_blank" rel="noopener noreferrer">My LinkedIn</a></p>
+      <p>
+        Feel free to reach out to me via email or connect with me on LinkedIn.
+      </p>
+      <div className="contact-links">
+        <a href="mailto:salemkian1@gmail.com" className="contact-button">
+          Email Me
+        </a>
+        <a
+          href="https://www.linkedin.com/in/salemkian"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-button"
+        >
+          LinkedIn Profile
+        </a>
+      </div>
     </div>
   );
-};
+}
 
 export default Contact;
